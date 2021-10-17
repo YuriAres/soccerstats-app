@@ -16,7 +16,7 @@ export default props => {
                     </div>
                 </div>
             </header>
-            <div className="MainArea"></div>
+            <div className="MainArea">A</div>
         </>
     );
 }
