@@ -16,7 +16,6 @@ export default props => {
                     </div>
                 </div>
             </header>
-            <div className="MainArea">A</div>
         </>
     );
 }
