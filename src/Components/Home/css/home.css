@@ -3,5 +3,24 @@ header{
     position: fixed;
     top: 0;
     background-color: black;
-    height: 50px;
+    height: 55px;
+    font-size: 25px;
+}
+
+.AreaMenu{
+    width: 80%;
+    border: 1px red solid;
+    margin: 10px auto;
+    color: white;
+
+}
+
+.AreaMenu .Left{
+    border: 1px red solid;
+    float: left;
+}
+
+.AreaMenu .Right{
+    border: 1px red solid;
+    float: right;
 }
