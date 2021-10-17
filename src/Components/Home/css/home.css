@@ -1,6 +1,6 @@
 a:hover{
-    border-bottom: 2px white solid;
-    padding-bottom: 15.8px;
+    border-bottom: 3.5px white solid;
+    padding-bottom: 14px;
 }
 
 a{
@@ -50,4 +50,11 @@ header{
 
 .AreaMenu .MenuOptions{
     margin-right: 10px;
+}
+
+.MainArea{
+    margin: 70px auto;
+    width: 80%;
+    border: 1px solid black;
+    height:1000px;
 }
