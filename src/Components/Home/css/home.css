@@ -17,6 +17,7 @@ header{
     height: 55px;
     font-size: 18px;
     box-shadow: 0px 2.5px rgba(0, 0, 0, 0.2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .AreaMenu{
@@ -57,4 +58,16 @@ header{
     width: 80%;
     border: 1px solid black;
     height:1000px;
+    background-color: white;
+}
+
+.MainArea .Title1{
+    margin: 20px;  
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    border: 1px red solid;
+    border-radius: 10px;
+    background-color: #4d648d;
+    color: white;
 }
