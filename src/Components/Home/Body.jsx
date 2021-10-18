@@ -11,7 +11,7 @@ export default props => {
         <>
             <Switch>
                 <Route exact path="/" component={Home}></Route>
-                <Route path="/Classificacao" component={Ranking}></Route>
+                <Route path="/Classificacao/:ID/:ABR" component={Ranking}></Route>
                 <Route path="/QuemSomos" component={About}></Route>
             </Switch>
         </>
