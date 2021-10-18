@@ -1,0 +1,23 @@
+.LeagueIcons{
+    height: 200px;
+}
+
+.LeagueDiv{
+    min-width: 280px;
+    max-width: 280;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: #435779;
+    border: 3px #4d648d solid;
+    border-radius: 7px;
+}
+
+.LeagueButton{
+    margin:20px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #435779;
+    color: white;
+    box-shadow: 2px 2.5px rgba(0, 0, 0, 0.2);
+}
