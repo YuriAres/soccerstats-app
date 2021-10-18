@@ -8,7 +8,7 @@ export default props => {
   useEffect(() => {
     API
       .get('/leagues/'+props.league+'/standings?season=2020&sort=asc')
-      .then((response) => setLeague(response.data))
+      .then(response => {setLeague(response.data)})
       .catch((err) => {
         console.error("ops! ocorreu um erro" + err);
       });
@@ -29,8 +29,6 @@ export default props => {
                 <td>{league.data.standings[props.id].stats[5].displayValue}</td>
                 <td>{league.data.standings[props.id].stats[9].displayValue}</td>
             </tr>
-        {console.log(league.data.standings[0])}
-
 
         
         </>) : ("")}
