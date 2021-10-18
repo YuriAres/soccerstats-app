@@ -97,11 +97,40 @@ header{
     text-align: center;
     flex-grow: 1;
     border-radius: 4px;
-    color: black;
+    color: #435779;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
+}
+
+.Card .ContentAbout{
+    background-color: white;
+    padding: 20px;
+    font-weight: 600;
+    flex-grow: 1;
+    border-radius: 4px;
+    color: #435779;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Table{
+    margin: 20px;
+    background-color: #4d648d  ;
+    min-height: 150px;
+    color: white;
+    border: 4px #4d648d solid;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2.5px rgba(0, 0, 0, 0.2);
+
+}
+
+td{
+    text-align: center;
 }
 
 
