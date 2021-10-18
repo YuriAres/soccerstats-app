@@ -3,7 +3,7 @@
 }
 
 .LeagueDiv{
-    min-width: 280px;
+    min-width: 240px;
     max-width: 280;
     display: flex;
     flex-direction: column;
