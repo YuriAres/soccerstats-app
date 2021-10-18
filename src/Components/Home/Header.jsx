@@ -13,7 +13,6 @@ export default props => {
                     </div>
                     <div className="Right">
                         <span className="MenuOptions"><Link to="/">HOME</Link></span>
-                        <span className="MenuOptions"><Link to="/Classificacao">ESTATISTICAS</Link></span>
                         <span className="MenuOptions"><Link to="/QuemSomos">QUEM SOMOS</Link></span>
                     </div>
                 </div>
