@@ -55,7 +55,7 @@ header{
 
 .MainArea{
     margin: 70px auto;
-    width: 100%;
+    width: 90%;
 }
 
 .MainArea .Title1{
@@ -72,7 +72,8 @@ header{
 .Card{
     margin: 20px;
     background-color: #4d648d  ;
-    min-height: 400px;
+    min-height: 200px;
+    min-width: 100px;
     color: white;
     border: 4px #4d648d solid;
     border-radius: 7px;
