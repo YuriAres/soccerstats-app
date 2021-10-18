@@ -1,6 +1,8 @@
 import API from './Getinfo'
 import './css/API.css'
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Rank from './Rank'
 
 export default props => {
   const [league, setLeague] = useState({});
@@ -25,7 +27,7 @@ export default props => {
             {league.data[props.id].name}
             <div>({league.data[props.id].abbr})</div>
           </div>
-          <button className="LeagueButton">Classificação</button>
+            <Link to={`/Classificacao/${league.data[props.id].name}/${league.data[props.id].id}`}><button className="LeagueButton">Classificação</button></Link>
       </div></>) : ("")}
     </>
   )
