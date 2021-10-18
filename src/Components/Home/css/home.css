@@ -72,7 +72,7 @@ header{
 .Card{
     margin: 20px;
     background-color: #4d648d  ;
-    height: 400px;
+    min-height: 400px;
     color: white;
     border: 4px #4d648d solid;
     border-radius: 7px;
@@ -98,6 +98,10 @@ header{
     flex-grow: 1;
     border-radius: 4px;
     color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
+
 
