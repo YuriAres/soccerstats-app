@@ -18,6 +18,7 @@ header{
     font-size: 18px;
     box-shadow: 0px 2.5px rgba(0, 0, 0, 0.2);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
 }
 
 .AreaMenu{
@@ -73,7 +74,7 @@ header{
     margin: 20px;
     background-color: #4d648d  ;
     min-height: 200px;
-    min-width: 100px;
+    min-width: 200px;
     color: white;
     border: 4px #4d648d solid;
     border-radius: 7px;
