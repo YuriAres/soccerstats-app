@@ -1,6 +1,11 @@
 import API from './Getinfo'
 import './css/API.css'
+import {Switch, Route, Link , withRouter} from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+
+import Ranking from '../Home/Body_Ranking'
+import Home from '../Home/Body'
+import Body_Ranking from '../Home/Body_Ranking';
 
 export default props => {
   const [league, setLeague] = useState({});
@@ -27,7 +32,6 @@ export default props => {
           </div>
           <button className="LeagueButton">Classificação</button>
       </div></>) : ("")}
-
     </>
   )
 
